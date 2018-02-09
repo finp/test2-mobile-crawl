@@ -1,0 +1,21 @@
+include::menu.adoc[]
+
+:view: summary
+
+== {view}
+
+[source, adoc]
+|===
+|         | *Sync* |*Push*|*Auth*|*Build* |Metrics|*Custom*
+include::version.all.adoc[]
+|
+
+|===
+
+[source, adoc]
+|===
+|         | iOS SDK |Android SDK|Cordova SDK|Xamarin SDK
+include::version.sdk.adoc[]
+|
+
+|===

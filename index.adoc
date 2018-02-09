@@ -4,6 +4,8 @@ include::menu.adoc[]
 
 == {view}
 
+=== Service Versions
+[cols="4,1,1,1,1,1,1"]
 [source, adoc]
 |===
 |         | *Sync* |*Push*|*Auth*|*Build* |Metrics|*Custom*
@@ -12,6 +14,8 @@ include::version.all.adoc[]
 
 |===
 
+=== SDK Versions
+[cols="3,1,1,1,1"]
 [source, adoc]
 |===
 |         | iOS SDK |Android SDK|Cordova SDK|Xamarin SDK

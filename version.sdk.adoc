@@ -7,19 +7,32 @@ endif::view[]
 
 ifeval::["{view}"=="jan"]
 | Release Version  | 1.0 |2.0|1.1|
-| My Version  | 1.0 |2.0|1.1|
+a| My Version
+
+NOTE: All matching
+| 1.0 |2.0|1.1|
 endif::[]
 
 
 ifeval::["{view}"=="feb"]
 | Version  | 1.1 |2.1|1.2|
-| My Version  | 1.0 |2.0|1.1|
+a| My Version
+
+NOTE: Already falling behind
+| 1.0 |2.0|1.1|
 endif::[]
 
 
 ifeval::["{view}"=="mar"]
 | Version  | 1.2 |3.0|1.3|
-| My Version  | 1.0 |2.0|1.1|
+a| My Version
+
+NOTE: Major version bump
+| 1.0
+|{set:cellbgcolor:red}2.0
+|1.1
+{set:cellbgcolor!}
+|
 endif::[]
 
 
